@@ -1,0 +1,101 @@
+body{
+   /* background-image:url("wallpaper.png");
+   background-size:cover;
+   background-repeat:no-repeat;*/
+   background-color: #202020;
+   color: #FFFFFF;
+}
+#phase1 {
+   /* width: 600px; */
+   width: auto;
+   height: 1100px;
+
+   background-color: rgb(248, 248, 248);
+   margin: auto
+}
+#phase2 {
+   /* width: 600px; */
+   width: auto;
+   height: 1100px;
+
+   background-color: rgb(248, 248, 248);
+   margin: auto
+}
+#phase3 {
+   /* width: 600px; */
+   width: auto;
+   height: 1100px;
+
+   background-color: rgb(248, 248, 248);
+   margin: auto
+}
+#characters{
+   width: auto;
+   height: 1000px;
+   background-color: #202020;
+   margin: auto
+}
+#heroes{
+   position: relative;
+   width: auto;
+   height: 1000px;
+
+   background-color: #202020;
+   margin: auto
+}
+#avengers{
+   width: auto;
+   height: 800px;
+
+   background-color: #202020;
+   margin: auto
+}
+#villain{
+   width: auto;
+   height: 900px;
+
+   background-color: #202020;
+   margin: auto
+}
+#title_phase {
+   text-align: center;
+   font-family: 'Courier 10 Pitch', sans-serif;
+}
+.site-header{
+   text-align: center;
+   font-family: 'Courier 10 Pitch', sans-serif;
+   font-weight: normal;
+   font-size: x-large;
+   background-color: #202020;
+   height: 165px;
+}
+.column {
+   float: left;
+   width: 33%;
+}
+#legend-container{
+   padding: 5px;
+
+}
+.relation {
+   display: inline-block;
+   width: 80px;
+   height: 17px;
+   margin-bottom: 6px;
+   font-size: x-large
+}
+.bg-light {
+   background-color: #FFFFFF!important;
+}
+.btn{
+   font-family: 'Courier 10 Pitch', sans-serif;
+   font-weight: normal;
+   font-size: x-large;
+
+
+}
+.btn-light {
+   background-color: #FFFFFF;
+   color: #FA000B;
+   border-color: #FFFFFF;
+}

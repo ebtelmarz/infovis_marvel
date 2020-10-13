@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel='icon' href='static/logos/marvel_logo.png' type='image/x-icon'/>
+    <meta charset='utf-8'/>
+
+    <title>MARVEL CINEMATIC UNIVERSE</title>
+
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'
+            integrity='sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=' crossorigin='anonymous'></script>
+
+    <link rel="stylesheet" href="mycss.css">
+    <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css'>
+    <link href='https://fonts.googleapis.com/css?family=Marvel&display=swap' rel='stylesheet'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'
+          integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+</head>
+
+<body style="background-color: #202020">
+
+<header class='site-header'>
+    <nav class='navbar navbar-expand-md navbar-dark bg-steel fixed-top'>
+        <div  class='container'>
+            <div style="margin-right: 50px; padding-right: 0px; margin-left: -50px">
+                <img id ='logo' src="static/infinity_gauntlet_png_by_stark3879_dcqnxuc-fullview.png" height="100px" >
+
+                <p style="color: #FFFFFF; font-size: 20px; padding-top: 5px">Reset visualization</p>
+            </div>
+            <a class='navbar-brand' style='height: 70px; width: 200px'>
+                <img src='static/logos/marvel_rit.png' onclick="generate_simulation()" width='50%'
+                     class='d-inline-block align-top' alt=''
+                     style='width: 90%; margin-left: -60px'>
+
+            </a>
+            <div class='collapse navbar-collapse' id='navbarToggle' style='margin-top: 15px'>
+                <div class='navbar-nav mr-auto'>
+                    <a class='nav-item nav-link' style='color: #FA000B; font-size: 25px; margin-left: -100px'>MARVEL CINEMATIC UNIVERSE EXPLORATION</a>
+                </div>
+            </div>
+            <div style="margin-top:10px; margin-right:20px; padding-left: 20px; padding-right: 20px; padding-top: 10px; border: 3px solid #F7AF63">
+                <p style="color: #FA000B; font-size: 14px; font-weight: bold;">PHASE I</p>
+                <p style="color: #9CDDC8; font-size: 14px; font-weight: bold;">PHASE II</p>
+                <p style="color: #BE5ADF; font-size: 14px; font-weight: bold;">PHASE III</p>
+            </div>
+            <div style="margin-right: -150px">
+                <img alt='loghetto' id="vai" src="static/Marvel's_Avengers_Assemble_opening_logo.png" height="100px">
+                <p style="color: #FFFFFF; font-size: 20px; padding-top: 5px">Select your nodes then click here!</p>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--<div>
+<video width="300" height="200" controls>
+    <source src="static/animation.gif.mp4" type="video/mp4">
+</video>
+</div>-->
+
+<svg width="1800" height="900" viewBox="-480 -400 960 900"></svg>
+
+<script src="scripts/main_2.js"></script>
+</body>
+
+
+</html>
